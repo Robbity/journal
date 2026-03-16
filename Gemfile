@@ -4,6 +4,10 @@ source "https://rubygems.org"
 gem "rails", "~> 7.2.3"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
+# sassc - DEPRECATED IDK IF I USE DARTSASS BUT NEEDED FOR BOOTSTRAP
+gem "sassc-rails" 
+# bootstrap
+gem 'bootstrap', '~> 5.2', '>= 5.2.3'
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.4.5"
 # Use the Puma web server [https://github.com/puma/puma]
